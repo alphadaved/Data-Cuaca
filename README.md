@@ -1,76 +1,53 @@
-# REST Client - Data Cuaca  
-Project ini adalah REST Client sederhana menggunakan **HTML, CSS, dan JavaScript** untuk menampilkan informasi cuaca berdasarkan nama kota, dengan data yang diambil dari **OpenWeatherMap API**.
+REST CLIENT - Data Cuaca
+Proyek ini adalah klien REST dasar yang menggunakan HTML, CSS, dan JavaScript untuk menampilkan informasi cuaca berdasarkan nama kota, menggunakan data yang diperoleh dari OpenWeatherMap API.
 
-Website ini dibuat sebagai tugas pemrograman web / integrasi API.
+Situs web ini dibuat untuk memenuhi tugas pemrograman web dan integrasi API.
 
----
+🌐 Demo
+Silakan klik tautan di bawah ini untuk menuju situs web:
+👉 https://USERNAME.github.io/rest-client-cuaca/
 
-## 🌐 Demo  
-Klik link berikut untuk membuka website:  
-👉 **https://USERNAME.github.io/rest-client-cuaca/**
+Ganti USERNAME dengan nama pengguna GitHub Anda.
 
-> Ganti `USERNAME` dengan username GitHub kamu.
+🔧 Teknologi yang Digunakan
+HTML
+CSS
+JavaScript (Fetch API)
+OpenWeatherMap API
+GitHub Pages
 
----
+📌 Cara Penggunaan
+Buka situs web.
+Ketik nama kota (misalnya: Jakarta, Surabaya, Tokyo).
+Klik tombol Cari Cuaca.
+Bahasa Indonesia: Informasi cuaca kemudian akan ditampilkan:
+Nama kota dan negara
+Suhu (°C)
+Tingkat kelembapan
+Deskripsi cuaca
+Ikon cuaca
 
-## 🔧 Teknologi yang Digunakan
-- HTML  
-- CSS  
-- JavaScript (Fetch API)  
-- OpenWeatherMap API  
-- GitHub Pages  
-
----
-
-## 📌 Cara Menggunakan
-1. Buka website.
-2. Masukkan nama kota (contoh: *Jakarta*, *Surabaya*, *Tokyo*).
-3. Klik tombol **Cari Cuaca**.
-4. Informasi cuaca akan tampil:
-   - Nama kota & negara
-   - Suhu (°C)
-   - Kelembapan
-   - Deskripsi cuaca
-   - Icon cuaca
-
----
-
-## 📡 API Endpoint
-Data cuaca diambil menggunakan endpoint:
+📡 Titik Akhir API
+Data cuaca diambil dari titik akhir berikut:
 
 https://api.openweathermap.org/data/2.5/weather?q=%7Bcity%7D&units=metric&lang=id&appid=%7BAPIKEY%7D
 
-Keterangan:
-- `{city}` → nama kota
-- `units=metric` → suhu dalam °C
-- `lang=id` → bahasa Indonesia
-- `{APIKEY}` → API key Anda
+Penjelasan:
 
----
+{city} → nama kota
+units=metric → suhu dalam °C
+lang=id → Bahasa Indonesia
+{APIKEY} → kunci API Anda
 
-## 📁 Struktur Folder
-rest-client-cuaca/
-│
-├── index.html
-├── css/
-│ └── style.css
-└── js/
-└── app.js
+📁 Struktur Folder
+rest-client-cuaca/ │ ├── index.html ├── css/ │ └── style.css └── js/ └── app.js
 
----
+👨‍💻 Dibuat Oleh:
+Nama: TRI VERA
+Kelas: 3C
 
-## 👨‍💻 Dibuat Oleh:
-Nama: **TRI VERA**  
-Kelas: **3C**
+🤝 Kolaborator
+Dosen Pembimbing (diundang menggunakan GitHub Collaborator)
 
----
-
-## 🤝 Kolaborator
-- Dosen Pembimbing (diundang melalui GitHub Collaborator)
-
----
-
-## 📄 Lisensi
-Proyek ini bersifat open-source.
-
-
+📄 Lisensi
+Proyek ini bersifat sumber terbuka.
