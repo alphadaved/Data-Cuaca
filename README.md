@@ -5,9 +5,7 @@ Situs web ini dibuat untuk memenuhi tugas pemrograman web dan integrasi API.
 
 🌐 Demo
 Silakan klik tautan di bawah ini untuk menuju situs web:
-👉 https://USERNAME.github.io/rest-client-cuaca/
-
-Ganti USERNAME dengan nama pengguna GitHub Anda.
+👉 https://github.com/trivera03/Data-Cuaca.git
 
 🔧 Teknologi yang Digunakan
 HTML
@@ -47,7 +45,7 @@ Nama: TRI VERA
 Kelas: 3C
 
 🤝 Kolaborator
-Dosen Pembimbing (diundang menggunakan GitHub Collaborator)
+Dosen Pembimbing RUDY EKO PRASETYA
 
 📄 Lisensi
 Proyek ini bersifat sumber terbuka.
